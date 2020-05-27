@@ -5,7 +5,7 @@ provider "aws" {
 module "s3_bucket" {
   source = "terraform-aws-modules/s3-bucket/aws"
 
-  bucket = "preddy2-s3-bucket"
+  bucket = "Lian-s3-bucket"
   acl    = "private"
   region = "eu-west-2"
 
