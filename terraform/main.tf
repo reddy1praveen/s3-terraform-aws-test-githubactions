@@ -3,6 +3,7 @@ module "s3_bucket" {
 
   bucket = "my-s3-bucket"
   acl    = "private"
+  region = "eu-west-2"
 
   versioning = {
     enabled = true
