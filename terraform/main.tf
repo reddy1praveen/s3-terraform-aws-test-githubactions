@@ -1,5 +1,5 @@
 provider "aws" {
-  region  = "us-east-1"
+  region  = "eu-west-2"
 }
 
 module "s3_bucket" {
@@ -10,7 +10,7 @@ module "s3_bucket" {
   region = "eu-west-2"
 
   versioning = {
-    enabled = true
+    enabled = false
   }
 
 }
